@@ -14,7 +14,7 @@ private:
             graph[i][i] = 0;
         }
 
-        // Populate the conversion graph with given transformations
+        // Populate the conversion graph with given transformations,
         for (size_t i = 0; i < cost.size(); i++) {
             int from = original[i] - 'a';
             int to = changed[i] - 'a';
